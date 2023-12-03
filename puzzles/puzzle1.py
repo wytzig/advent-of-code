@@ -45,9 +45,7 @@ def solve_first(document_input):
 def solve_second(document_input):
     result = 0
     for line in document_input.splitlines():
-        print("line is: ", line)
         digits = re.findall("(?=(one|two|three|four|five|six|seven|eight|nine|\d+))", line)
-        print("digits: ", digits)
         result = result + get_first_and_last_digits(digits)
     return result
 
