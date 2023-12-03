@@ -1,6 +1,7 @@
 import time
 from puzzles.day1 import puzzle1
 from puzzles.day2 import puzzle2
+from puzzles.day3 import puzzle3
 
 
 def execute_puzzle(puzzle_module, input_file, input_file2, input_file3, input_file4):
@@ -47,9 +48,9 @@ if __name__ == "__main__":
     answer1, time1, answer2, time2, answer3, time3, answer4, time4 = execute_puzzle(puzzle2, input_file_puzzle2_1, input_file_puzzle2_2, input_file_puzzle2_3, input_file_puzzle2_2)
     print(f"Day 2, Puzzle 1:\n\tAnswer Part 1: {answer1} [{time1}ms]\n\tAnswer Part 2: {answer2} [{time2}ms]\n\tAnswer Part 3: {answer3} [{time3}ms]\n\tAnswer Part 4: {answer4} [{time4}ms]")
 
-    input_file_puzzle3_1 = "puzzles/day2/input_puzzle3_1.txt"
-    input_file_puzzle3_2 = "puzzles/day2/input_puzzle3_1.txt"
-    input_file_puzzle3_3 = "puzzles/day2/input_puzzle3_1.txt"
+    input_file_puzzle3_1 = "puzzles/day3/input_puzzle3_1.txt"
+    input_file_puzzle3_2 = "puzzles/day3/input_puzzle3_1.txt"
+    input_file_puzzle3_3 = "puzzles/day3/input_puzzle3_1.txt"
 
-    answer1, time1, answer2, time2, answer3, time3, answer4, time4 = execute_puzzle(puzzle2, input_file_puzzle3_1, input_file_puzzle3_2, input_file_puzzle3_3, input_file_puzzle3_2)
+    answer1, time1, answer2, time2, answer3, time3, answer4, time4 = execute_puzzle(puzzle3, input_file_puzzle3_1, input_file_puzzle3_2, input_file_puzzle3_3, input_file_puzzle3_2)
     print(f"Day 2, Puzzle 1:\n\tAnswer Part 1: {answer1} [{time1}ms]\n\tAnswer Part 2: {answer2} [{time2}ms]\n\tAnswer Part 3: {answer3} [{time3}ms]\n\tAnswer Part 4: {answer4} [{time4}ms]")
